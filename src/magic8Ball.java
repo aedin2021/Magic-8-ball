@@ -15,8 +15,7 @@ public class magic8Ball {
 
         System.out.println("Ask any question.");
         q = key.nextLine();
-        System.out.println("Now put a number to that.");
-        num = key.nextByte();
+        num =  (int)(Math.random()*100);
         if (num==0){System.out.print("You found the secret answer this will tell you the truth, Bush did 9/11.");
         }else if (num<10){System.out.print("Your going to ace it.");
         }else if (num<20){System.out.print("It was planned to fail.");
